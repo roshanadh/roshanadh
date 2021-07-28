@@ -12,5 +12,5 @@ steps:
 - uses: actions/checkout@v2
 - uses: gautamkrishnar/blog-post-workflow@master
   with:
-      feed_list: "https://feeds.feedburner.com/RoshanAdhikary"
+    feed_list: "https://feeds.feedburner.com/RoshanAdhikary"
     
