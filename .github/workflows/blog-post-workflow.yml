@@ -13,4 +13,8 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://feeds.feedburner.com/RoshanAdhikary"
+          commit_message: "Update README.md with latest blog post"
+          retry_count: 2
+          retry_wait_time: 20
+          max_post_count: 8
     
